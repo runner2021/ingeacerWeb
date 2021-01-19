@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ingeacer</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <header class="titulo">
+
+        <h1>INGEACER</h1>
+
+    </header>
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img  style="width: 30px;" src="imagenes/menu.png" alt=""></label>
+         <nav class="menu">
+
+              <ul>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="#">Empresa</a></li>
+                  <li><a href="#">Servicios</a></li>
+                  <li><a href="#">Contacto</a></li>
+              </ul>
+         </nav>
+
+        </header>  
+
+        <section>
+            <h2 style="text-align: center; font-size: 30px; margin-top:20px">Contacto</h2>
+            <div class="formulario">
+                 
+                <form action="correo.php" method="post">
+                   <table id="tabla">
+                    <tr>
+                        <td class ="nombres">Nombre</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="nombre" required=""></td>
+                    </tr>
+                    <tr>
+                        <td class ="nombres">Apellidos</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="apellidos" required=""></td>
+                    </tr>
+                    <tr>
+                        <td class ="nombres">Teléfono</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="telefono" required=""></td>
+                    </tr>
+                    <tr>
+                        <td class ="nombres" >Correo</td>
+                    </tr>
+                    <tr></tr>
+                        <td><input type="mail" name="correo" required=""></td>
+                    </tr>
+                </table>
+                <table id="tabla1">
+                    <tr>
+                     <td><textarea rows="5" cols="50">Mensaje</textarea></td>
+                     </tr>
+                     <tr>
+                    <td><input  class ="enviar" type="submit" value="Enviar" name="enviar" ></td>
+                     </tr>
+                     </table>
+                </form>
+
+               
+            </div>
+        </section>
+
+        
+        
+        
+        
+
+        
+
+    
+       <<footer>
+        <div class="wrapper-footer">
+        
+            
+            <ul class="pieContactoI">
+                <li><a href="avisolegal.html">Aviso Legal</a></li>
+                <li><a href="#">Privacidad</a></li>
+                <li><a href="#">Protección de Datos</a></li>
+                 
+                 
+            </ul>
+         
+            <ul class="pieContactoD" >
+                <li> 646 168 402 / 605 566 310</li>
+                <li> info@ingeacer.es</li>
+                <li> Ingeacer 2020 &copy;</li>
+             </ul>
+         
+       </div>
+    </footer>
+
+    
+</body>
+</html>
