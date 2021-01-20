@@ -203,7 +203,7 @@ header label:hover{
 
         position: absolute;
         background-color:rgb(149, 149, 167); 
-        width:50%;
+        width:28%;
         margin-left: -70%;
      }
 
@@ -238,3 +238,175 @@ header label:hover{
 /* Media  Fin     -------------------------------------------------------*/
 
 
+/*  responsive  1920 x 1080 ------------------------*/
+
+
+@media(min-width:1920px){
+
+
+  .titulo{
+
+     
+      height:120px;
+  }
+
+  .titulo h1{
+
+      margin-top: 10px;
+  }
+
+  .menu li{
+
+         width: 150px;
+         height: 30px;
+  }
+
+  .portada{
+
+      margin-top: 70px;
+      height: 620px;
+      margin-left: 60px;
+  }
+
+  .fotoPortada img{
+
+       height: 580px;
+       
+      
+       
+  }
+
+
+  .prevencion{
+
+   
+    font-size:35px;
+    
+   
+
+    top:25%;
+    left:70%;
+    
+  }
+
+  .wrapper-footer{
+
+      
+      margin-top: 80px;
+
+  } 
+
+  .pieContactoI li{
+
+    font-size:30px;
+    margin-left: 20px;
+   
+}
+
+.pieContactoD li{
+
+    font-size:30px;
+    margin-right: 50px;
+   
+    
+   
+}
+
+}
+
+
+/*   responsive 360 X  640   -----------------------*/
+
+@media(max-width:360px){
+
+      .titulo{
+
+            height: 60px;
+      }
+
+      .titulo h1{
+
+           font-size: 30px;
+    
+            margin-left:10px;
+      }
+
+      .nenu{
+
+          width: 20px;
+         
+      }
+
+      .portada{
+
+        width: 100%;
+        height:350px;
+        
+        background-color: rgb(255, 251, 251);
+        
+     
+   }
+
+   .portada img{
+
+        width:99%;
+        height:330px;
+        margin-top: 10px;
+        margin-left:2px;
+   }
+
+   
+
+    .fotoPortada{
+
+         width:100%;
+         height:340px;
+         background-color: rgb(255, 251, 251);
+         margin-left: 0px;
+        
+        
+    }
+
+    .prevencion{
+
+        
+        font-size:12px;
+   
+        top:25%;
+        left:60%;
+        
+      }
+
+      .pieContactoI li{
+
+        font-size:11px;
+        
+        
+       
+   }
+
+   .pieContactoD li{
+
+    font-size:11px;
+    
+   
+}
+
+.pieContactoI{
+
+       margin-top: 20px;
+       margin-left: 5px;
+}
+
+.pieContactoD{
+
+    margin-top: 20px;
+    margin-right: 1px;
+}
+
+
+
+
+
+
+}
