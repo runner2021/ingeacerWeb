@@ -225,7 +225,7 @@ header label:hover{
 
     /*   responsive 360 X  640   -----------------------*/
 
-@media(max-width:360px){
+@media(max-width:500px){
 
    .titulo{
 
@@ -249,9 +249,9 @@ header label:hover{
 
    .texto li{
 
-        width:170px;
-        font-size: 10px;
-        margin-left: 85px;
+        width:200px;
+        font-size: 12px;
+        margin-left: 65px;
         
         
         
@@ -267,7 +267,13 @@ header label:hover{
 
     .slider ul{
 
-        margin-left: 110px;
+        margin-left: 40px;
+    }
+
+    .slider img{
+
+        width: 250px;
+        
     }
 
     .pieContactoI li{
@@ -287,15 +293,17 @@ header label:hover{
 
 .pieContactoI{
 
-   margin-top: 20px;
+   margin-top: 2px;
    margin-left: 5px;
 }
 
 .pieContactoD{
 
-margin-top: 20px;
+margin-top: 2px;
 margin-right: 1px;
 }
+
+
 
     
     

@@ -310,7 +310,7 @@ header label:hover{
 
 /*   responsive 360 X  640   -----------------------*/
 
-@media(max-width:360px){
+@media(max-width:500px){
 
      .titulo{
 
